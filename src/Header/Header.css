@@ -1,0 +1,32 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    /* background-color: black; */
+    width: 100%;
+    height: 50px;
+    border-radius: 0px 12px;
+}
+.left {
+  margin:15px 30px;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.right ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 15px 30px;
+}
+.right ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.right ul a:hover{
+    text-decoration: underline;
+}
